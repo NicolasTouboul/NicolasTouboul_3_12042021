@@ -1,0 +1,11 @@
+{
+  "name": "p3_touboul_nicolas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style_accueil.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.header {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    padding: 1em;
+
+
+    &_logo {
+        font-family: Shrikhand,"cursive";
+        text-align: center;
+        margin: 0;
+    }
+
+}
