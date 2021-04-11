@@ -1,0 +1,42 @@
+.localisation{
+    display: flex;
+    justify-content: center;
+    padding: 1em ;
+    background-color: #f3f3f3;
+    font-size: 1.2em;
+
+    &_icon{
+        margin-right: 1em;
+    }
+
+    &_text{
+        font-weight: 700;
+    }
+}
+
+.explain{
+
+    padding: 2em;
+    text-align: center;
+    background-color: #fafafa;
+
+    &_title{
+        margin: 0;
+    }
+    &_subtitle{
+        font-weight: 300;
+    }
+    &_btn{
+        border: 0;
+        padding: 0.75em 1.5em;
+        font-weight: 500;
+        font-size: 1.1em;
+        border-radius: 100px;
+        color: #fff;
+        background-color: $colour-primary;
+        cursor: pointer;
+        transition: 0.25s;
+        box-shadow: 0.25em 0.25em 10px rgb(0 0 0/ 25%);
+    }
+}
+

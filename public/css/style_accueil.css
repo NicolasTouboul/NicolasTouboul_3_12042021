@@ -1,8 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+.localisation {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: #f3f3f3;
+  font-size: 1.2em;
+}
+.localisation_icon {
+  margin-right: 1em;
+}
+.localisation_text {
+  font-weight: 700;
+}
+
+.explain {
+  padding: 2em;
+  text-align: center;
+  background-color: #fafafa;
+}
+.explain_title {
+  margin: 0;
+}
+.explain_subtitle {
+  font-weight: 300;
+}
+.explain_btn {
+  border: 0;
+  padding: 0.75em 1.5em;
+  font-weight: 500;
+  font-size: 1.1em;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #9356DC;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.25);
+}
+
 .header {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   padding: 1em;
+  position: relative;
 }
 .header_logo {
   font-family: Shrikhand, "cursive";
