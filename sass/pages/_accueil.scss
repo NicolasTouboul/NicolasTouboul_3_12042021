@@ -71,3 +71,40 @@
     }
 
 }
+.restaurants{
+    background-color: #f6f6f6;
+    padding: 2em 1em;
+    
+    &_content{
+        max-width: 1280px;
+        margin: auto;
+        position: relative;
+    }
+    &_title{
+
+    }
+}
+
+.res_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    &_fig{
+        background-color: #fff;
+        border-radius: 1em;
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    &_img{
+        height: 12em;
+        width: 100%;
+        border: 0 solid transparent;
+        border-radius: 1em 1em 0 0;
+        box-shadow: none;
+        object-fit: cover;
+    }
+}

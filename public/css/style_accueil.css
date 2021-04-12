@@ -68,6 +68,38 @@
   color: #7e7e7e;
 }
 
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 2em 1em;
+}
+.restaurants_content {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+.res_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.res_card_fig {
+  background-color: #fff;
+  border-radius: 1em;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.res_card_img {
+  height: 12em;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 1em 1em 0 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
 .header {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   padding: 1em;
@@ -77,6 +109,33 @@
   font-family: Shrikhand, "cursive";
   text-align: center;
   margin: 0;
+}
+
+.footer {
+  background-color: #353535;
+}
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.footer_logo {
+  color: #fff;
+  font-family: Shrikhand, "cursive";
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+.footer_list {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.footer_list li {
+  margin: 0.5em 0;
+}
+.footer_link {
+  text-decoration: none;
+  color: #fff;
 }
 
 body {
