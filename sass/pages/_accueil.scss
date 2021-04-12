@@ -40,3 +40,34 @@
     }
 }
 
+.tutorial{
+    padding: 2em 1em 2em 1em;
+
+    &_content{
+        max-width: 1280px;
+        margin: auto;
+        position: relative;
+    }
+    &_title{
+        margin-top: 0;
+    }
+    &_steps{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &_step{
+        padding: 1.5em;
+        margin: 1em 0 1em 0.75em;
+        box-shadow: 0.25em 0.25em 0.5em rgb(0 0 0/ 15%);
+        border-radius: 1.25em;
+        background-color: #f6f6f6;
+        display: flex;
+        position: relative;
+    }
+    &_icon{
+        margin-right: 1em;
+        color: #7e7e7e;
+    }
+
+}
