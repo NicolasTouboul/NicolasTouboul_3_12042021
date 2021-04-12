@@ -82,14 +82,15 @@
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 .res_card_fig {
   background-color: #fff;
   border-radius: 1em;
   position: relative;
-  text-decoration: none;
-  color: inherit;
+  color: black;
   display: block;
+  margin: 0 0 2em 0;
 }
 .res_card_img {
   height: 12em;
@@ -98,6 +99,30 @@
   border-radius: 1em 1em 0 0;
   box-shadow: none;
   object-fit: cover;
+}
+.res_card_badge {
+  background-color: #99E2D0;
+  color: #1b6150;
+  padding: 0.5em;
+  border-radius: 0.125em;
+  position: absolute;
+  top: 1em;
+  right: 0.75em;
+}
+.res_card_footer {
+  padding: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.res_card_content {
+  flex: 1;
+}
+.res_card_title {
+  margin: 0 0 0.25em;
+}
+.res_card_subtitle {
+  margin: 0;
 }
 
 .header {

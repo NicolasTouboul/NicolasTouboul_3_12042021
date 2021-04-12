@@ -90,14 +90,14 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+    text-decoration: none;
     &_fig{
         background-color: #fff;
         border-radius: 1em;
         position: relative;
-        text-decoration: none;
-        color: inherit;
+        color: black;
         display: block;
+        margin: 0 0 2em 0;
     }
     &_img{
         height: 12em;
@@ -106,5 +106,32 @@
         border-radius: 1em 1em 0 0;
         box-shadow: none;
         object-fit: cover;
+    }
+    &_figcaption{
+
+    }
+    &_badge{
+        background-color: $colour-tertiary;
+        color: #1b6150;
+        padding: 0.5em;
+        border-radius: 0.125em;
+        position: absolute;
+        top: 1em;
+        right: 0.75em;
+    }
+    &_footer{
+        padding: 1em;
+        position: relative;
+        display:flex;
+        align-items: center;
+    }
+    &_content{
+        flex: 1;
+    }
+    &_title{
+        margin: 0 0 0.25em;
+    }
+    &_subtitle{
+        margin: 0;
     }
 }
