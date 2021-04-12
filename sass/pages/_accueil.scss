@@ -25,6 +25,7 @@
     }
     &_subtitle{
         font-weight: 300;
+        margin: 1.5em 0;
     }
     &_btn{
         border: 0;
@@ -33,7 +34,11 @@
         font-size: 1.1em;
         border-radius: 100px;
         color: #fff;
-        background-color: $colour-primary;
+        background-color: #686868;
+        background-image: linear-gradient(0deg, 
+        $colour-primary,
+        $colour-secondary)
+        ;
         cursor: pointer;
         transition: 0.25s;
         box-shadow: 0.25em 0.25em 10px rgb(0 0 0/ 25%);
@@ -80,9 +85,6 @@
         margin: auto;
         position: relative;
     }
-    &_title{
-
-    }
 }
 
 .res_card{
@@ -119,7 +121,14 @@
         top: 1em;
         right: 0.75em;
     }
-    &_footer{
+
+    &_btn{
+        height: 2em;
+        width: 2em;
+        display: flex;
+    }
+   
+    &_foot{
         padding: 1em;
         position: relative;
         display:flex;
