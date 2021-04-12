@@ -65,6 +65,9 @@
   display: flex;
   position: relative;
 }
+.tutorial_step span {
+  margin-left: 1em;
+}
 .tutorial_icon {
   margin-right: 1em;
   color: #7e7e7e;
@@ -116,6 +119,9 @@
   height: 2em;
   width: 2em;
   display: flex;
+}
+.res_card_icon {
+  font-size: 1.7em;
 }
 .res_card_foot {
   padding: 1em;

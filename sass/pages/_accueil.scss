@@ -69,7 +69,12 @@
         background-color: #f6f6f6;
         display: flex;
         position: relative;
+
+        & span{
+            margin-left: 1em;
+        }
     }
+
     &_icon{
         margin-right: 1em;
         color: #7e7e7e;
@@ -109,9 +114,7 @@
         box-shadow: none;
         object-fit: cover;
     }
-    &_figcaption{
 
-    }
     &_badge{
         background-color: $colour-tertiary;
         color: #1b6150;
@@ -126,6 +129,9 @@
         height: 2em;
         width: 2em;
         display: flex;
+    }
+    &_icon{
+        font-size: 1.7em;
     }
    
     &_foot{
