@@ -132,6 +132,11 @@
     }
     &_icon{
         font-size: 1.7em;
+        &:hover{
+            background-image: linear-gradient(0deg, 
+        $colour-primary,
+        $colour-secondary)
+        }
     }
    
     &_foot{

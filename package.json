@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style_accueil.css"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style_accueil.css",
+    "sass_1": "sass --watch ./sass/menu.scss:./public/css/style_menu.css"
   },
   "author": "",
   "license": "ISC"
