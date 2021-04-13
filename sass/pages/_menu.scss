@@ -15,7 +15,7 @@
 .resto_img{
     max-width: 100%;
     max-height: 30em;
-    width: 100;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -74,6 +74,10 @@
     overflow: hidden;
     padding: 0 1em;
 
+    & ul {
+        padding-left: 0;
+    }
+
     &_title {
         text-transform: uppercase;
         position: relative;
@@ -99,6 +103,8 @@
 
             &_title{
                 margin: 0;
+
+                
             }
 
             &_description{
@@ -115,8 +121,21 @@
                 align-self: flex-end;
                 padding-left: 0.5em;
             }
-    }
+    }       
     
 
+    
+}
+
+.wrapBtn{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+.commandBtn{
+
+        @include button;
     
 }
