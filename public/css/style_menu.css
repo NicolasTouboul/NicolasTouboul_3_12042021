@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.return_arrow {
+  position: absolute;
+  left: 2em;
+  height: 2em;
+  width: 2em;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  color: #000;
+}
+
+.resto_img {
+  max-width: 100%;
+  max-height: 30em;
+  width: 100;
+  object-fit: cover;
+}
+
+.menu {
+  margin-top: -4em;
+  border-radius: 2em 2em 0 0;
+  z-index: 1;
+  position: relative;
+  background-color: #f6f6f6;
+}
+.menu_header {
+  padding: 1em 2em 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_title {
+  font-family: Shrikhand, "cursive";
+}
+.menu_btn {
+  height: 2em;
+  width: 2em;
+  border: 0 solid transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  background-color: black;
+}
+.menu_icon {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: lighten;
+  font-size: 2em;
+}
+
+.submenus {
+  display: flex;
+  flex-flow: column;
+}
+
+.submenu {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 1em;
+}
+.submenu_title {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 0.5em;
+  font-weight: 400;
+}
+
+.header {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  position: relative;
+}
+.header_logo {
+  font-family: Shrikhand, "cursive";
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  background-color: #353535;
+}
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.footer_logo {
+  color: #fff;
+  font-family: Shrikhand, "cursive";
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+.footer_list {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.footer_list li {
+  margin: 0.8em 0;
+}
+.footer_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+/*# sourceMappingURL=style_menu.css.map */

@@ -1,0 +1,86 @@
+.return_arrow{
+    position: absolute;
+    left: 2em;
+    height: 2em;
+    width: 2em;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #000;
+}
+
+.resto_img{
+    max-width: 100%;
+    max-height: 30em;
+    width: 100;
+    object-fit: cover;
+}
+
+.menu{
+
+    margin-top: -4em;
+    border-radius: 2em 2em 0 0;
+    z-index: 1;
+    position: relative;
+    background-color: #f6f6f6;
+
+    &_header{
+        padding: 1em 2em 0 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_title
+    {
+        font-family: Shrikhand,"cursive";
+    }
+
+    &_btn{
+        height: 2em;
+        width: 2em;
+        border: 0 solid transparent;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        background-color: black;
+        
+    }
+    &_icon{
+        background-color: #f6f6f6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        mix-blend-mode: lighten;
+        font-size: 2em;
+
+    }
+
+}
+
+.submenus{
+    display: flex;
+    flex-flow: column;
+}
+
+.submenu{
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1em;
+
+    &_title {
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 0.5em;
+        font-weight: 400;
+    }
+    
+
+    
+}
