@@ -80,6 +80,42 @@
         padding-bottom: 0.5em;
         font-weight: 400;
     }
+
+    &_item{
+        list-style: none;
+        background-color: #fff;
+        padding: 1em;
+        display: flex;
+        border-radius: 0.75em;
+        margin: 1em 0;
+        box-shadow: 0.25em 0.25em 1em rgb(0 0 0 / 10%);
+        overflow: hidden;
+        cursor: pointer;
+        max-width: 100%;
+
+            &_header{
+                flex: 1;
+            }
+
+            &_title{
+                margin: 0;
+            }
+
+            &_description{
+                margin: 0;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
+            &_price{
+                font-weight: 700;
+                display: flex;
+                justify-content: flex-end;
+                align-self: flex-end;
+                padding-left: 0.5em;
+            }
+    }
     
 
     
