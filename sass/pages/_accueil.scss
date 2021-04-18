@@ -1,3 +1,49 @@
+.loading{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsla(0, 0%, 100%, 0.9);
+    animation: loader .01s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        &_wheel{
+            display: flex;
+            width: 5em;
+            justify-content: space-between;
+        }
+        &_dot{
+            height: 2em;
+            width: 1em;
+            border-radius: 1em;
+            animation: wheel 1s linear infinite;
+            animation-iteration-count: 1;
+        }
+
+        &_dot--1{
+            background-color: $colour-primary;
+        }
+        &_dot--2{
+            background-color: $colour-secondary;
+            animation-delay: 0.3s;
+        }
+        &_dot--3{
+            background-color: $colour-tertiary;
+            animation-delay: 0.55s;
+        }
+
+}
+
+
+
+
+
 .localisation{
     display: flex;
     justify-content: center;
@@ -63,6 +109,19 @@
             margin-left: 1em;
         }
     }
+    &_number{
+        background-color: $colour-primary;
+        height: 1.5em;
+        width: 1.5em;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        color: #fff;
+        left: -1.75em;
+
+    }
 
     &_icon{
         margin-right: 1em;
@@ -87,6 +146,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-decoration: none;
+
     &_fig{
         background-color: #fff;
         border-radius: 1em;
@@ -127,7 +187,7 @@
         $colour-secondary)
         }
     }
-   
+ 
     &_foot{
         padding: 1em;
         position: relative;

@@ -1,5 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes wheel {
+  0% {
+    transform: rotateZ(0deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotateZ(720deg) translate3d(0, 0, 0);
+  }
+}
+.loading {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 0.01s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading_wheel {
+  display: flex;
+  width: 5em;
+  justify-content: space-between;
+}
+.loading_dot {
+  height: 2em;
+  width: 1em;
+  border-radius: 1em;
+  animation: wheel 1s linear infinite;
+  animation-iteration-count: 1;
+}
+.loading_dot--1 {
+  background-color: #9356DC;
+}
+.loading_dot--2 {
+  background-color: #FF79DA;
+  animation-delay: 0.3s;
+}
+.loading_dot--3 {
+  background-color: #99E2D0;
+  animation-delay: 0.55s;
+}
+
 .localisation {
   display: flex;
   justify-content: center;
@@ -67,6 +120,18 @@
 }
 .tutorial_step span {
   margin-left: 1em;
+}
+.tutorial_number {
+  background-color: #9356DC;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #fff;
+  left: -1.75em;
 }
 .tutorial_icon {
   margin-right: 1em;
