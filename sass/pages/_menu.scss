@@ -62,6 +62,17 @@
 
     }
 
+    &_confirmation
+    {
+        background-color: $colour-tertiary;
+        margin: -1em -5em -1em -1em;
+        width: 4em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+    }
+
 }
 
 .submenus{

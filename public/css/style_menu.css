@@ -57,6 +57,15 @@
   mix-blend-mode: lighten;
   font-size: 2em;
 }
+.menu_confirmation {
+  background-color: #99E2D0;
+  margin: -1em -5em -1em -1em;
+  width: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
 
 .submenus {
   display: flex;
