@@ -159,7 +159,6 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 16em;
 }
 .submenu_item_price {
   font-weight: 700;
@@ -237,6 +236,16 @@
   animation-delay: 1s;
 }
 
+@media all and (max-width: 780px) and (min-width: 600px) {
+  .submenus {
+    flex-flow: row;
+  }
+}
+@media all and (min-width: 900px) {
+  .tutorial_steps {
+    display: flex;
+  }
+}
 .header {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   padding: 1em;

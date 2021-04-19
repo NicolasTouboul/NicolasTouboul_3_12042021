@@ -204,3 +204,28 @@
         margin: 0;
     }
 }
+
+
+@media all and (min-width: 900px)
+{
+    .tutorial{
+
+        &_steps{
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+            
+        }
+    }
+
+    .res{
+        &_card{
+            display: flex;
+            flex-flow: wrap;
+
+            &_fig{
+                width: 70%;
+            }
+        }
+    }
+}

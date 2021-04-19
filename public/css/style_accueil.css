@@ -14,6 +14,14 @@
     transform: rotateZ(720deg) translate3d(0, 0, 0);
   }
 }
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .loading {
   position: fixed;
   height: 100%;
@@ -207,6 +215,21 @@
   margin: 0;
 }
 
+@media all and (min-width: 900px) {
+  .tutorial_steps {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+  }
+
+  .res_card {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .res_card_fig {
+    width: 70%;
+  }
+}
 .header {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   padding: 1em;

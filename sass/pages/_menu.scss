@@ -157,7 +157,7 @@
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 overflow: hidden;
-                max-width: 16em;
+            
             }
 
             &_price{
@@ -225,4 +225,24 @@
 }
 .delay-10{
     animation-delay: 1s;
+}
+
+
+@media all and (max-width: 780px) and (min-width: 600px)
+{   
+    .submenus{
+        flex-flow: row;
+    }
+
+}
+
+@media all and (min-width: 900px)
+{
+    .tutorial{
+
+        &_steps{
+            display: flex;
+            flex-flow: row;
+        }
+    }
 }
