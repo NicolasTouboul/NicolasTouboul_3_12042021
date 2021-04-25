@@ -150,9 +150,14 @@
 }
 .submenu_item_header {
   flex: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .submenu_item_title {
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .submenu_item_description {
   margin: 0;
@@ -236,14 +241,14 @@
   animation-delay: 1s;
 }
 
-@media all and (max-width: 780px) and (min-width: 600px) {
+@media all and (max-width: 768px) and (min-width: 600px) {
   .submenus {
     flex-flow: row;
   }
 }
-@media all and (min-width: 900px) {
-  .tutorial_steps {
-    display: flex;
+@media all and (max-width: 1440px) and (min-width: 900px) {
+  .submenus {
+    flex-flow: row;
   }
 }
 .header {

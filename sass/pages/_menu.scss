@@ -144,11 +144,16 @@
 
             &_header{
                 flex: 1;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
             }
 
             &_title{
                 margin: 0;
-
+                
+                text-overflow: ellipsis;
+                overflow: hidden;
                 
             }
 
@@ -228,7 +233,7 @@
 }
 
 
-@media all and (max-width: 780px) and (min-width: 600px)
+@media all and (max-width: 768px) and (min-width: 600px)
 {   
     .submenus{
         flex-flow: row;
@@ -236,13 +241,9 @@
 
 }
 
-@media all and (min-width: 900px)
+@media all and (max-width: 1440px) and (min-width: 900px)
 {
-    .tutorial{
-
-        &_steps{
-            display: flex;
-            flex-flow: row;
-        }
+    .submenus{
+        flex-flow: row;
     }
 }

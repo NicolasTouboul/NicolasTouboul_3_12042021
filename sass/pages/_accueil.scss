@@ -178,6 +178,7 @@
         height: 2em;
         width: 2em;
         display: flex;
+        position: relative;
     }
     &_icon{
         font-size: 1.7em;
@@ -186,6 +187,7 @@
         $colour-primary,
         $colour-secondary)
         }
+        position: absolute;
     }
  
     &_foot{
