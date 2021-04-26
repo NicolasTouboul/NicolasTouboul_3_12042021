@@ -202,7 +202,7 @@
     &_icon--like{
         opacity: 0;
         font-size: 1.8em;
-        &:hover{
+        &:active{
             transition: 0.25s;
             opacity: 100%;
             color: linear-gradient(0deg, 

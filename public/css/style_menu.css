@@ -85,7 +85,7 @@
   font-size: 1.7em;
   position: absolute;
 }
-.menu_icon--like:hover {
+.menu_icon--like:active {
   transition: 0.25s;
   opacity: 100%;
   color: linear-gradient(0deg, #9356DC, #FF79DA);
