@@ -77,7 +77,7 @@
   mix-blend-mode: lighten;
   font-size: 2em;
 }
-.menu_icon :hover {
+.menu_icon :active {
   z-index: -10;
 }
 .menu_icon--like {
