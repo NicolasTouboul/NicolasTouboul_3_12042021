@@ -142,16 +142,14 @@
 
 .res_card{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     text-decoration: none;
 
     &_fig{
         background-color: #fff;
         border-radius: 1em;
         position: relative;
-        color: black;
+        
         display: block;
         margin: 0 0 2em 0;
     }
@@ -179,13 +177,38 @@
         width: 2em;
         display: flex;
         position: relative;
+        border: 0 solid transparent;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    &_btn:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+
     }
     &_icon{
-        font-size: 1.7em;
+        
+        font-size: 1.8em;
+        position: absolute;
+        color: black;
+    }
+
+    &_icon--like{
+        opacity: 0;
+        font-size: 1.8em;
         &:hover{
-            background-image: linear-gradient(0deg, 
+            transition: 0.25s;
+            opacity: 100%;
+            color: linear-gradient(0deg, 
         $colour-primary,
         $colour-secondary)
+        ;
         }
         position: absolute;
     }
@@ -198,6 +221,7 @@
     }
     &_content{
         flex: 1;
+        color: black;
     }
     &_title{
         margin: 0 0 0.25em;
@@ -221,13 +245,28 @@
     }
 
     .res{
-        &_card{
+
+        &_cards{
             display: flex;
+            flex-direction: row;
             flex-flow: wrap;
+        }
+
+        &_card{
+            width: 50%;
 
             &_fig{
                 width: 70%;
             }
+            &_img{
+                height: 20em;
+            }
+        }
+    }
+
+    .restaurants{
+        &_title{
+            padding-left: 6.5em;
         }
     }
 }

@@ -77,6 +77,19 @@
   mix-blend-mode: lighten;
   font-size: 2em;
 }
+.menu_icon :hover {
+  z-index: -10;
+}
+.menu_icon--like {
+  opacity: 0;
+  font-size: 1.7em;
+  position: absolute;
+}
+.menu_icon--like:hover {
+  transition: 0.25s;
+  opacity: 100%;
+  color: linear-gradient(0deg, #9356DC, #FF79DA);
+}
 .menu_animIcon {
   height: 1.6em;
   width: 1.6em;

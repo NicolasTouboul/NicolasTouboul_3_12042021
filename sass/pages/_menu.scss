@@ -57,7 +57,23 @@
         justify-content: center;
         mix-blend-mode: lighten;
         font-size: 2em;
+        :hover{
+            z-index: -10;
+        }
 
+    }
+    &_icon--like{
+        opacity: 0;
+        font-size: 1.7em;
+        &:hover{
+            transition: 0.25s;
+            opacity: 100%;
+            color: linear-gradient(0deg, 
+            $colour-primary,
+            $colour-secondary)
+            ;
+        }
+        position: absolute;
     }
 
 
