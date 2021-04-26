@@ -27,3 +27,12 @@
         color: #fff;
     }
 }
+@media all and (min-width: 900px)
+{
+    .footer{
+        &_content{
+            padding-left: 10%;
+        }
+    }
+
+}
