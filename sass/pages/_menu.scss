@@ -257,9 +257,11 @@
 
 }
 
-@media all and (max-width: 1440px) and (min-width: 900px)
+@media all and (min-width: 900px)
 {
+    
     .submenus{
         flex-flow: row;
+        justify-content: center;
     }
 }
