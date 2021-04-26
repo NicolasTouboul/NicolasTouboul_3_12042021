@@ -65,9 +65,9 @@
     &_icon--like{
         opacity: 0;
         font-size: 1.7em;
-        &:active{
+        &:hover{
             transition: 0.25s;
-            opacity: 100%;
+            opacity: 1;
             color: linear-gradient(0deg, 
             $colour-primary,
             $colour-secondary)
