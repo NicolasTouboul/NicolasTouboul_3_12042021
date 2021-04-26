@@ -193,22 +193,29 @@
 
     }
     &_icon{
-        
-        font-size: 1.8em;
-        position: absolute;
-        color: black;
-    }
+        opacity: 1;
+        background-color: #f6f6f6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        &:hover{
+            z-index: -10;
+        }
 
+    }
     &_icon--like{
         opacity: 0;
-        font-size: 1.8em;
-        &:active{
+        font-size: 2em;
+        &:hover{
             transition: 0.25s;
-            opacity: 100%;
-            color: linear-gradient(0deg, 
-        $colour-primary,
-        $colour-secondary)
-        ;
+            opacity: 1;
+            background: -webkit-linear-gradient(0deg, 
+            $colour-primary,
+            $colour-secondary)
+            ;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         position: absolute;
     }

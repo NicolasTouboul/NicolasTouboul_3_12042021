@@ -67,28 +67,29 @@
   justify-content: center;
   cursor: pointer;
   position: relative;
-  background-color: black;
 }
 .menu_icon {
+  opacity: 1;
   background-color: #f6f6f6;
   display: flex;
   align-items: center;
   justify-content: center;
-  mix-blend-mode: lighten;
   font-size: 2em;
 }
-.menu_icon :active {
+.menu_icon:hover {
   z-index: -10;
 }
 .menu_icon--like {
   opacity: 0;
-  font-size: 1.7em;
+  font-size: 2em;
   position: absolute;
 }
 .menu_icon--like:hover {
   transition: 0.25s;
   opacity: 1;
-  color: linear-gradient(0deg, #9356DC, #FF79DA);
+  background: -webkit-linear-gradient(0deg, #9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu_animIcon {
   height: 1.6em;
