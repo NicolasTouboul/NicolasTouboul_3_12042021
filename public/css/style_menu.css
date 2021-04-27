@@ -210,6 +210,9 @@
   transition: 0.25s;
   box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.25);
 }
+.commandBtn:hover {
+  box-shadow: 0.45em 0.45em 30px rgba(0, 0, 0, 0.55);
+}
 
 .delay-0 {
   animation-delay: 0s;
@@ -304,6 +307,11 @@
   color: #fff;
 }
 
+@media all and (min-width: 900px) {
+  .footer_content {
+    padding-left: 10%;
+  }
+}
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
